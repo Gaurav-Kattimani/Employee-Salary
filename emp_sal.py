@@ -1,4 +1,4 @@
-salary = float(input("Enter the Employee's salary : "))
+salary = float(sys.argv[1])
 bonus = 0.10 * salary
 total_sal = salary + bonus
 print("Bonus Amount : Rs.",bonus)
